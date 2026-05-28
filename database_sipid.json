@@ -1,0 +1,2995 @@
+{
+  "users": [
+    {
+      "id": "4f1e7434-5bb5-4bbd-8966-10e0441c13d2",
+      "username": "admin",
+      "password_hash": "27654e59f0668e842c405172525873e515f27c6354ac49329ebda880296e5687",
+      "role": "admin",
+      "fullName": "Drs. H. Ridwan, M.Si (Kadisperindag Bangka Barat)"
+    },
+    {
+      "id": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79",
+      "username": "surveyor",
+      "password_hash": "7ef1babb3e6a71ee4edf0002cec16d83cf0b59634cd3aae55635ddc9ec9bd3bb",
+      "role": "surveyor",
+      "fullName": "Beni Saputra (Surveyor Pasar Mentok)"
+    }
+  ],
+  "markets": [
+    {
+      "id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "name": "Pasar Induk Mentok",
+      "latitude": -2.0682,
+      "longitude": 105.1634,
+      "address": "Jl. Pasar Mentok, Tanjung, Mentok, Kabupaten Bangka Barat, Kepulauan Bangka Belitung 33321"
+    }
+  ],
+  "commodities": [
+    {
+      "id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "name": "Beras Medium",
+      "unit": "kg",
+      "het_price": 12500,
+      "category": "Bahan Pokok"
+    },
+    {
+      "id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "name": "Beras Premium",
+      "unit": "kg",
+      "het_price": 14900,
+      "category": "Bahan Pokok"
+    },
+    {
+      "id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "name": "Gula Pasir Konsumsi",
+      "unit": "kg",
+      "het_price": 17500,
+      "category": "Bahan Pokok"
+    },
+    {
+      "id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "name": "Minyak Goreng Kita",
+      "unit": "liter",
+      "het_price": 18000,
+      "category": "Minyak & Mentega"
+    },
+    {
+      "id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "name": "Cabai Merah Keriting",
+      "unit": "kg",
+      "het_price": 55000,
+      "category": "Hortikultura"
+    },
+    {
+      "id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "name": "Cabai Rawit Merah",
+      "unit": "kg",
+      "het_price": 60000,
+      "category": "Hortikultura"
+    },
+    {
+      "id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "name": "Bawang Merah",
+      "unit": "kg",
+      "het_price": 41500,
+      "category": "Hortikultura"
+    },
+    {
+      "id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "name": "Bawang Putih Honan",
+      "unit": "kg",
+      "het_price": 38000,
+      "category": "Hortikultura"
+    },
+    {
+      "id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "name": "Daging Sapi Paha Belakang",
+      "unit": "kg",
+      "het_price": 140000,
+      "category": "Daging & Ayam"
+    },
+    {
+      "id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "name": "Daging Ayam Broiler",
+      "unit": "kg",
+      "het_price": 38000,
+      "category": "Daging & Ayam"
+    },
+    {
+      "id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "name": "Telur Ayam Ras",
+      "unit": "kg",
+      "het_price": 28000,
+      "category": "Daging & Ayam"
+    },
+    {
+      "id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "name": "Tepung Terigu Kemasan",
+      "unit": "kg",
+      "het_price": 13000,
+      "category": "Bahan Pokok"
+    }
+  ],
+  "priceLogs": [
+    {
+      "id": "cfdc1343-6d06-4439-bac4-dbc50d9b9af8",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10900,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "329765b3-7b31-45b9-a256-8278eb3b37a0",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11000,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "72267c56-a10c-4dc2-8e47-0d2506894cc3",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11100,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "23bc67cb-e3e5-4a46-9ef5-328e763b917f",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11100,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c7dda156-e856-41f6-be0f-fccbd70a2e01",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11000,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "32ad6c1b-6e6c-4fde-903f-9dc942750013",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11100,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ee98193a-e54c-42d3-9dbb-4b948cb22395",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11000,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "151ce354-1b8e-481d-9652-b8fa6202aeb5",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11000,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b2d9b160-50f9-451a-bd43-01d80f373ef0",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11100,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "31b91d51-c0f2-4677-956a-8cb1ebacea81",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11000,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8e004f01-6312-4573-8d1b-6da94aa9b8c0",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10900,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f17877ae-6868-43f5-a3dc-ca92c53e5067",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5901609a-e6d9-4ce7-a38d-db3f330d5a87",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d90dc2ba-8663-4501-99c0-2b6c02fc5992",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e52e9f93-be2b-4c14-85b9-962bcbe4421a",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8f691dc6-0e8f-4ac1-8ccd-6df7c8ef5b95",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "877484d5-2d42-4ea7-bf65-9c45567f347f",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10600,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "84a9559a-6212-42ca-bf94-9246a7f3a2b3",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10600,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b6c4d4a9-c830-40e3-8ee8-d08d0da542d9",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 10800,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "546977e9-3610-4c35-98fb-151bc04c5a71",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11100,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf29bb86-58ef-458a-b5a0-cb665db0ce90",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11300,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8504d9a1-4be7-460e-801f-40e041485b02",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11500,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "815407a8-f8fc-44f0-b02f-a876c3604d87",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 11700,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7ad87d2a-70c7-48c9-9688-6c3c5c6782d2",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12000,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "72c5e085-f826-4b45-91cb-f5edc0c0ace2",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "918fbb60-7931-4261-8cbb-7fa1b3afee7b",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8b37d9be-a2cb-407a-96c9-9bb166c824e8",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12700,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf9ff2a7-01f3-46b0-8139-180dfc38d969",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12800,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e2f28255-19a0-425a-b79e-858a4a158885",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13000,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f428ade4-2686-451b-9511-a8ceda4e58fb",
+      "commodity_id": "ecfdcdf8-f03d-4f86-8f78-1de1911c6c63",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13200,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6860edb6-a6c4-4dcb-bc92-40c76a153dad",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14300,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "822842ab-6869-42f9-8808-5113d9965c08",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14200,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "77ccc9a0-c8cd-4dc1-9911-1878e3e548fb",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bdda2d69-602a-4e13-885b-a6f745c66b72",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14200,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "96a38c52-73a3-486a-86de-1ec08df9792f",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14200,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "49a759b7-33bf-4549-b526-d84036ad39b9",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1ffc327a-b756-4d29-bb55-928ea9618060",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0aa2ae73-c171-4dcd-b17e-974ef42395a6",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13900,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "278b3dcc-75ff-465d-a9db-17ee650ec147",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13900,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "30a7d3ff-acb5-482a-8344-c89505815140",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c9e34a32-c176-4173-9791-5427337df3be",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "72d434b6-7557-4165-a40e-59f66dd68f01",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6c673139-9289-4371-8a97-dc5b0aa7b6fe",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "17165f88-a7d7-4bbb-b762-8285ccac5cf6",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "85cd21c3-856b-4465-b9de-789a0768393f",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ee7ec939-2d7f-4879-a49f-d47c5c95bddf",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13900,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1a1b968b-71e1-4858-857c-4d1d587c2591",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13800,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "86c7e091-f563-4b9a-ad09-3ba4b169aa6c",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13800,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d6456e32-bac0-4650-b716-032fed32fe8f",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13700,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "821228bf-b7e0-43cf-b5d6-596a81332d25",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13700,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0ab37a8f-8d42-4615-9925-135fb660d5c8",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13800,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "85632348-e0d0-4b51-a6ff-ad9f710ef62a",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13900,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "04aa33d9-8a41-430a-8933-4f19a28e8ad9",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 13900,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e3ec8962-eb35-4979-be31-6c56d44d5d58",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8c37d253-9e84-481f-9140-26e2040834d1",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b52ac9ba-e9fd-40bd-b0c0-e5cd915034e7",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "97d1c02a-ce8e-4ca3-8838-75156e94e0c1",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7a837052-cbef-41f7-bf33-6e586c75723b",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14100,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "66b98b52-ee47-473d-aa6e-c2fa721be038",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c7c2f081-737f-458d-b594-5bc7f40ba261",
+      "commodity_id": "72c2963e-c5fa-45fd-a896-796d18483bba",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14000,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2d35a6bc-56ea-4183-a28b-e79a8a5f96d7",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15000,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1e355b79-ea7b-40dd-bdb0-0e07571997a7",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15000,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6b0b239c-bc1d-4d40-92cf-fd60e67a6ccb",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15000,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf20cae7-7a25-402e-a23b-b64327eb42b5",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1b059f62-ad85-4408-9a0b-22ef9b6c456a",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14900,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e6607f14-02d7-4de4-bcf0-3ebb7fe99b74",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14900,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7a0154a1-0f1f-4af8-bb4c-f684f4bdd98f",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "399bfbff-de6d-49c4-ac23-9103102f0941",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f8e0a6f0-b7ab-4a7e-a05a-72049328aaf4",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1d8762e8-076a-4b53-bf08-3af5973705eb",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e91e92bd-bbf5-48cd-ab27-30f13c634441",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "966fc6fd-529c-42a8-b6da-974732dbd519",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14900,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1cd71e84-2dbd-42c0-aabc-6570f540297e",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15000,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f9ff85e8-d690-45d5-baeb-12bdfd5badc3",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15100,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0ab3dcc6-7845-4176-a951-f357efbf4627",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 15000,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7e660836-8bc9-42aa-904c-ec39d7cfeecf",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14900,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9649e67f-06e4-4d7c-b7c5-5533ebf32ca5",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14900,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f59a2cac-c7b7-46e7-a0ea-5a4e067f4914",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14700,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "10fd4830-aae1-4cef-ab31-146ffa882742",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14600,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f054bb42-02fe-447a-8b06-dfb8cc315694",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14500,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "67f03cc5-e7e1-4cb5-9c0a-da6d036627e8",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14500,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1fc3f3ab-356f-4f2d-8178-070f6c9ca01a",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14400,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "629a8b69-803c-47b5-9a66-124dd28ed8dc",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14400,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "473eee11-fd9e-41d3-9659-6c1248fd1aa8",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14400,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e47c2bc2-8c90-471a-b662-f5b7d834606d",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14300,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2def2eb7-128e-4ff4-94c7-da86a87c08a2",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14400,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "17fbbb61-a677-4409-aa12-13e698c4cb5e",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14400,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1e0ed59e-97a4-4cf9-9303-06ceadf9abb2",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14500,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c2a27796-b578-47cd-bb32-855926a14da1",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14600,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bbd50ba1-eba3-4482-85f0-dd51d1e5cec6",
+      "commodity_id": "ea50fe47-0bbe-4f33-b7ff-cbc972f55887",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 14800,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b5720748-e8d3-42d9-8eef-c7e4a9552d0f",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17300,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "954a5920-4589-4d16-b153-81a61cf07592",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e962378b-6dc8-4a05-81bb-6469b7647af1",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5ea35dee-72f7-4d6b-b2fc-f940534012de",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b1d3fc7a-2c1f-4d79-9906-c65a1fa8447d",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0d06dd1e-ccac-43c0-aa76-edd30643cc28",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "49441567-f561-405a-9f6e-80692f738432",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d1858a87-e655-4eb3-a9e1-cb8df2b2a285",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17300,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2faad771-5f3f-41b6-9dd5-14297249c815",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9c588c0b-2480-4b3d-90fe-1fcc07cc59d2",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "110b7219-bed3-408b-87bc-a1dfb3ff34ef",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3e76cb3c-037a-46ce-8636-7d4fee29b0b2",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17300,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bbbccf12-8374-4030-a351-f7c6acf74895",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "dc163295-e1ea-4518-b226-d77a931fd164",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e7bfc913-77bf-448c-9c06-35a454da30c3",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17300,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "95eed271-701c-4518-a93d-09565ab0bd2e",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d88292bc-7fde-4c47-9d22-8dcda8564499",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b17513cf-4d0e-46d3-a610-8a07190184c7",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9b55542c-fd16-4901-8ed6-05c6bb400029",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "eba12258-f5ac-47ce-bc33-b15a525717d9",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a82f2c8a-9310-4bc0-a1d0-12dae8666479",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1e4caf1e-74e2-4cd5-a12f-0a60e302a0ae",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "29d08617-8cd4-424c-8daf-caadffd3e795",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "371e5d93-95df-495e-a645-b020bd58ecaa",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c0b1bced-3256-411f-bc2c-e73e7fe23b21",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "734be847-34aa-4e63-852a-b64d2181171f",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a67cb8c6-4331-4016-9508-fb2e1cbcfa7b",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "39fb230e-57a5-4376-a1ea-a08acffddbe2",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17200,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9f0fbae7-bb39-4547-a908-48445a9710a3",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17000,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a4679e34-caec-4685-82ba-6f37ea796798",
+      "commodity_id": "6b19148b-7289-4d8b-9398-d713dbdeec10",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 17100,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2deb03be-a095-43a9-b301-24570096856f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49300,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "85d6c8bb-0406-49a5-bcca-6b7920852b15",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 48900,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "934e6927-b6f9-4048-987a-a1d6a0cf1cf6",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49400,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "99078e10-a421-4986-af6a-b2dac02b875f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49100,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "91925a36-8257-4b97-859c-38b4ec035252",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 48700,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "598f090d-816e-45da-b870-da4ee297911f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49200,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3f2f6d04-fef0-47b0-8978-95c8327898f1",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49500,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2efb762f-c7a4-4684-859f-d4756e5f2bab",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49400,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf5f2d31-2b6d-4937-89b2-74b22c2044e4",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49000,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b33b8392-33e2-4472-b707-3e8981a3578c",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49200,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0a1fe95a-a833-49a2-8c52-88ab1bd97f2a",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49400,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9233c2e6-c187-4ccd-8ba2-62e93aeeda45",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49900,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c2fb49fc-1102-4704-b46b-bbda5631687f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49900,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "96c5e1a0-7782-4e22-8579-a0438678ebd9",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 50100,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9832a02d-a1c2-4207-ba0e-4b49d2d91d0f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 50400,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "962dedfc-501f-417c-92d8-ca7d54c376ef",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49900,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d84cdf23-d35b-4ed2-9aa4-15fd84fbf6e8",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49900,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c8fbed0d-f84b-410e-8948-6759d23c09ce",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 49800,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "16660afe-d0b1-4d17-ac66-d29f53dd67b1",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 50300,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "89328b7c-c55b-47d5-a728-2f36c3a0630c",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 51300,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2db104a9-47dd-4e24-ba52-4656cce600ae",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 52200,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0f59601d-0e5b-4a8d-a2c0-72618460475f",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 52600,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ab2e8a2f-3a22-4487-8ecf-5db55624d3ae",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 53400,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8f7699c0-b3ae-44b9-863e-00eebca2a0a7",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54200,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d93083bb-0b05-4e5f-98c9-ca8a2bcc44b6",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 55100,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d8d95c4f-78b3-42bf-ae8a-6a396e232eb1",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 56300,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7f306085-6558-4df7-9734-e19cc985106e",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 57600,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c8a59c19-e5a0-443c-b6cb-90bc1c6f3765",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 58200,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "380553fc-8c84-4edf-8997-1001d2510a09",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 58600,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1ce98535-8b7c-41c0-8fc3-e12a4c56bed9",
+      "commodity_id": "0f3b16e2-37f4-4f48-8354-5bfc0bd2ca86",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 58900,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "fbb16225-8f4e-4bfd-81d5-4e083a4ac9b2",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54800,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "16e6f89f-7403-43a3-9876-54df02a873c4",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54500,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5f97e6f8-69b2-450a-9290-fe12275b1106",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54400,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f77f2e0b-6926-46cb-ad0f-fff643427b55",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54200,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6c8d8c6f-eb55-43aa-bc27-54fe2f76350c",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54800,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "89ec9999-830f-4adb-b54e-53043dd86e16",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54300,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "65b8b2da-f261-44fe-bd49-e066f0afc9cb",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54000,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "afe79982-b5c1-4646-82fb-567e1e3d6385",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54500,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "217d99c1-8bdc-4fa6-ab92-dca0eda21fb8",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54300,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a1eb58f1-7d8f-4b1b-9029-3e6c507f4b7f",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54900,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b5f2065f-1e39-489b-b589-2419d015535b",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54400,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ecc3c448-c4a4-4763-a492-d53313d87b34",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54400,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3a9d10a7-1b51-4c7a-9c2a-d7d70ae3538a",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54900,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "088bb498-5149-491e-8d60-0e8b2f7defe0",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54500,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7801a532-b20e-4b18-ac65-ed606e171ecf",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54900,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "664c5c79-c4e0-4601-842c-4714b1f1a45e",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 55300,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a5770065-e657-4ddc-bd5c-0cf126f5ec7a",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54800,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2787dee7-3181-44d9-b1e3-0c0e2beafb99",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 54200,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3e6ef1bf-a2a7-49d1-ad3c-9baa31cdb678",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 55600,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d20b5e12-9aea-4180-b747-68aae8f7d89c",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 56700,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "87a2f1fe-fcfd-4a36-89fa-95ab81530bd4",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 57900,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "10339ad1-1157-4552-a9be-22e953636753",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 58600,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8925b1e1-0b7f-49fe-b7c1-d2b6bc638224",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 59800,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "285c1fa5-cf08-4b23-8ab7-9eafcc11bdf3",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 60400,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "664e6f8d-a464-4f34-a9e3-347c4df6276c",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 60900,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "dfce621e-d287-40da-bbcd-fb9d5011561c",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 62300,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b5156e92-375c-411a-9e33-245482c29242",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 63300,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c9bec0ba-4bc9-4d88-891b-1355c313a741",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 64000,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5490a77b-2396-45ca-9730-84b137ae3564",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 64500,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0fb6967e-084e-4b1a-b3ff-a46e77fb669d",
+      "commodity_id": "9736f68f-1efc-46fe-9df9-fd2fb13b0872",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 65400,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "44bc4a72-2e24-434f-bb4e-50001fecbbad",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37300,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "18434512-7824-40d2-82f8-f8f5f588e1be",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37200,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "083f52ab-f05e-4204-9886-d78bcf233c73",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37500,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "11b14bf7-3fbc-4828-84b7-0303b47d4280",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37500,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e9491fd2-1570-49ab-aa33-06800c00f3cc",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37300,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "fff4b1bc-7316-4830-bb28-2e437c088595",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37700,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c8b0b7fe-3f02-4b0e-82f7-3eecf11f112c",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37400,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "53ae4716-4333-4c80-84a9-b67ab94f880a",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37400,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ed887e29-1553-4fea-b69b-b497e2cd80bb",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37600,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a8d46dc1-7988-4ef2-bb5c-587c7eb88e02",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37800,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b5df393a-cf55-4098-822b-d6f439415617",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37500,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "879424f3-4a2e-4926-b1af-5803792ebb69",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37700,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "13c5ca36-5024-404b-a758-10981e8fdea3",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38000,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "763e14fe-a8b8-4af7-b11c-52dc6de7eeef",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38000,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "eb5abadd-0b5c-4828-bd1e-70bcc6f7de18",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38100,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "013c002e-1bd9-4292-895c-f43553fb36cd",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38500,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2c8510cb-590a-4a7e-add4-dceb0138d0dd",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38700,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "fc66a633-761c-4426-a445-c52d56d07144",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 38800,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c86bba68-6e21-4eff-a48b-83da1c815f01",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39000,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1a612ba7-f0db-41d6-87d4-a1a99d97447f",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39400,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f017e47c-77bd-4c94-9268-57d9fe882267",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39800,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "141593ff-286a-447f-aaaf-bd3c5eeba045",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39500,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0880f314-ed8f-45b3-a09b-ee1750ad1d76",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39700,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4e51ab6c-dc36-4648-b4bc-cf18ade55472",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39800,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "48782699-bc42-4dde-a5be-7ea5c66baedd",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39900,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bac3e4b1-1c9d-4feb-89c9-501c420ee0c2",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39700,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5644610a-b6e0-475e-8d8b-7ef2173d0a07",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39600,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "96dabf77-8e56-4f60-9017-d3462af65d3f",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39300,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5f282ed8-4ff5-4202-bc25-f06d765aec46",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39000,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f9bb8936-e495-4d6c-839c-b39b037c566d",
+      "commodity_id": "b89b917b-f7de-45df-8531-70b584026c85",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 39300,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4ef2e496-b0e1-4b35-9662-ec213e4aa33b",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36600,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3f9df0ff-0f26-4019-b242-9cc5d71a77f1",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36500,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f45dd798-39ae-40a4-be38-1838f06ecf3b",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36700,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "82d5db23-8b0f-4f05-af3f-b401a6d30191",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36900,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3df8788b-c7b8-44a4-af6b-a6345983e59e",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37100,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ee1d47d7-c2e4-4821-b46a-4e4d3c8d63ee",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37100,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5ac66b9b-45dc-466c-bdc8-fe85153d8cd5",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36900,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "71dbd355-2ac4-479c-abdc-1220d7d25472",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36900,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "761f4879-0727-4e75-b99f-dc5b1dc75162",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37200,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "afe6ff29-29ee-4d7e-a733-2a2ad2a70fd4",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36900,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2263cafa-83c5-470c-912d-dea319356f42",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37200,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9bad01cb-44df-435a-9f10-717060d9abda",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37000,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5fb280e1-c300-4560-8fa8-8f8c065a0dc9",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36800,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bb06942e-d3b7-4eaa-9f4c-dc50feb0e374",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 37000,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "afd11e6f-87d2-40c5-a382-3072f162aab3",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36900,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "403fea53-a643-4d8f-abd0-2ff9612b15c6",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36800,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "642507b6-cebf-4dde-b613-1bf76dceb30c",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36600,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2307a02f-c39f-4a5c-acb4-aa58dc8950d8",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36600,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "dbcf6aa3-5c4b-4315-bd9d-4b7e0a4c2300",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36500,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "24240b11-5779-41d5-9f55-db542b41733b",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36100,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2fe413d8-67c2-4137-a5ca-ad5b2d3adf63",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35800,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1491ef87-fe95-467e-92e3-0db6693e4bc1",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36200,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "77099d34-f9e0-42e2-81da-cbb79ca18201",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36200,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9a8226cf-4fff-40af-bc75-b4d1da779d3f",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 36100,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "33575519-8975-4da1-bd31-65efa1a82128",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35900,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "66769d67-c462-4bec-88c7-b6ddc8910d0b",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35600,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e1101f5e-6713-4d2d-bd06-f0be6504e479",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35300,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "47baaac0-8da7-404b-a42b-334dfe7d05d4",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35400,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c0be5d9e-c5af-40ff-91c7-db302ddd2d46",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35700,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "b5154292-7a8d-42d4-9dfd-60e6e421904b",
+      "commodity_id": "c52b717b-75a9-4f9f-bb36-1f0f0a80453a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35500,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "48ee65c1-12cb-47cc-8e1e-801354d97fd2",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125400,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ba9f2233-1add-4d19-8285-15f004a9fa74",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124300,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a0153cee-5210-42a6-be08-c7144792665e",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125000,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "782aea54-9a90-47e1-8a29-97368578506e",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124000,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7c10341b-4fb8-44c7-819f-c47ab9bcb046",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125000,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bfad4551-9202-4dfd-9481-42ce5eaff5b8",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125200,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "79993147-f062-4b1f-b9d8-8ca44db542aa",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 126100,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c3eebcf2-3e2b-413d-b404-f7fc692d80fc",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124900,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f0e385d8-f211-42fa-827a-286e3b4d6643",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124600,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "72ac39a7-eaf3-4e57-a8d7-886c5034b4c7",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 123800,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "eaeb52ea-5063-4009-94ba-ce77f663ad52",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124000,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "09accf1f-e773-417a-a9ef-54352fd853ca",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124100,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "74c28ea8-9762-4ecb-afa4-48f6b351fe44",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125000,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "483d2e54-58a6-4bff-8185-5a38e52853c6",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124800,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ada411a4-b143-4b4f-a434-a0e9b00225b9",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125100,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "afed627f-39a5-415b-9b92-9a5fc718be77",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125400,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5d826c7c-c776-480a-9a54-ea06499b2ef6",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 126700,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7b808709-8f6c-4ff1-8a53-104eb9a57aa9",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 127200,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "918556b8-6773-4b4f-a7e6-321ed469682f",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 126300,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a88ca592-c9eb-49a4-8b2e-be0af2324731",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125000,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1d364e1b-2276-43c5-b33e-e119723aa8c8",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125900,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c50c8ee0-ac3b-4469-9e77-01dc3eab52ac",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 125100,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0014bce2-e77a-47ad-92e4-1d1898e0e626",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 124200,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "35514b72-1d88-4b1e-b99a-330e0b39bd5d",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 123100,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3299a07c-0d72-48d3-9837-7d0857cd866d",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 122200,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "9a0653ec-2919-43e5-bb89-c83335579969",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 122500,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "81ec312b-bcce-4987-b5c1-401c07d379f7",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 122300,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5ba31f81-2a5a-4fbb-a53b-399ca83cc3a5",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 121300,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f41846df-6994-46ff-9120-844ee99f8c9c",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 122500,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f663f903-36b7-411f-874b-b31741b5c010",
+      "commodity_id": "a2d6acce-0126-46ce-8728-fdbcf7fa31ae",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 122300,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "aeebccce-a2b8-4ed7-84a9-f0610ec722c8",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35200,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ded14595-7289-4555-9900-6dad9fafe940",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35100,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf7bf3bd-8c02-4586-a14c-a2b37ebeb96d",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34800,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "69a63f62-527c-4a38-b56c-0788669b5889",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35200,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d1666258-9ff8-498a-9bc1-ab071798da95",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 35000,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4111f558-29b8-4d5e-8f35-abdb1e52cd0f",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34700,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "27657fbe-1244-4606-b85d-125d5e0e24a0",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34700,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6fd058d5-3861-4c20-997f-d7dcb928c2a5",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34700,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "56c15cb8-4256-4761-9e2e-52ab40a4d281",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34800,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "bff4d302-c307-4f03-9ae0-7003754afb42",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34700,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5843be84-e5d7-45ce-afba-886036af9392",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34300,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "01ca0ed8-ad29-4355-9960-5b5ed26dca9f",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34300,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "30c5653d-2a04-4411-9398-073fae16c86c",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34300,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0febe963-f54f-4ac1-8ed4-1829adce5d9e",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34300,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "884f2b9e-f8f8-4071-9ddc-6d15d5a064e6",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34200,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7a27fefc-78a4-4ec7-a4e5-577663bfc551",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34200,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2de71047-6da1-4ed9-85f8-50e0c90aaf2d",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34400,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5c20361f-0474-42ef-9cc7-87101521cdc2",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34500,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3ac9ab96-c874-4b33-be60-b32c7ece8835",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34300,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ac2f24cc-e662-46b3-b183-08d737cfa1ce",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34500,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "322fd188-ec7e-472f-b28e-b7d046b008ef",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34500,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8f1dbe3c-4894-4feb-87f8-20f3db9e147d",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34400,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6bc6de98-373d-49bb-a0a4-213270d09878",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34200,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "626a5ec6-8816-4fc6-9419-c5eb353a4928",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 33900,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "eb009851-9662-4823-ba36-6cbbd8dc5aa5",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 33700,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c2d7f6cd-b105-4a18-8d98-25b7da1b44cb",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 33800,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "65c760bf-5d95-4791-ba02-ba9c1faa4071",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34100,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0c22963e-d554-4dca-b45d-ffd291a56977",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34200,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ce2869cd-8ce5-4ea2-b4bc-2b4aaa829286",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34100,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "910bcd74-f05c-442d-a533-3110d3d0af6e",
+      "commodity_id": "e16eef98-4b6d-4f71-8566-6b25556e8ea0",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 34200,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6ac85903-7667-4d60-a52f-801aadc4f6f9",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25600,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ed255c84-437c-41c4-9beb-f1d1058528a9",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25500,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "93180ce5-4024-4bdc-97e6-2c7398ee6b4a",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25200,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "079f63e5-4421-48de-a479-cb6eb3cbd422",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25400,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e8bcc815-9ce9-44b2-807b-d797bfd2abaa",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25200,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ff4e938f-228a-404f-83af-ec424a929c3e",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25500,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8af3db99-1376-41e5-b764-7e41ae112270",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25200,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7ce1bad3-1e5e-4b0b-aeae-72fa213e6fff",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25100,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "89f99bbe-3696-405c-8c64-492736dfd8e5",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25100,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3b0d77b7-ec24-4ec2-ad3e-54c59554c240",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 25000,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "624bcbc1-6c2c-4408-bff5-b248ed20b631",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24800,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f8deb0d3-0cfa-44a4-aec7-92625887d348",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24700,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "74bd1c26-b838-4ca1-9526-7db1d4fb58c5",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24500,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7cdb3d55-1589-476a-9253-642b4812fba0",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24300,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ca69d571-fb8d-4c16-b6ae-b6671ec1b8a0",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24200,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4a11abdf-7a78-4107-ac51-400d3404e408",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24100,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "cf501569-d4c2-4031-8884-c87fb5ff1d81",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 24000,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c4d759da-fe76-4e5f-8669-e333ada04aba",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23800,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1c40de75-8991-4d57-916d-04f37a40c8af",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23600,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ea5d6a2b-8f90-431c-bbc5-09f13824e994",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23600,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ec4dfff5-4a45-4f85-8bc2-ce4301daeb51",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23500,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "5f98e124-197d-4a8b-ab73-f45791b30955",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23500,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "af31d659-8c19-4408-ab51-1e014d08f9ac",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23300,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "acf13a1e-afb4-4b38-832e-06c21773c6b7",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23600,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f2aa6952-435f-4c06-aac9-9fb04bdadc44",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23500,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "55142cf0-3b94-4547-b0f1-ee1067257de2",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23500,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7fa2d315-cd67-4a2e-a117-716e41c0cc14",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23600,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d3747408-1bfd-49f3-8265-14b05d7fc5b2",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23400,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1bea0ce9-3315-4504-ac1e-251e2be17524",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23300,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0f78ec84-698e-4824-b9f4-b54c4219c0a2",
+      "commodity_id": "ad2c5361-8c7a-4186-a255-c87ae2c2f92a",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 23500,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e029ecc2-f5e5-45ce-9aa9-565d10aa6be4",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12100,
+      "recorded_at": "2026-04-29",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3f734a49-8fa2-4dc1-a931-f49ec9c9f552",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-04-30",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "087cd1d4-4cd6-432d-8e99-103b00a9d43a",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-01",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "c43ab3aa-9852-4481-a9f4-1f2c722160b4",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-02",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "a5c9143f-f2dc-480d-ae93-d8d4b2821ae7",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-03",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "60a89bb1-e046-46ca-ae64-66eaf1889375",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12500,
+      "recorded_at": "2026-05-04",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2bbee266-69c9-4480-822b-fc2105efa52c",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12500,
+      "recorded_at": "2026-05-05",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2be3639f-39de-4516-9c8a-44c35bac2806",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-06",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "95e436b2-68b8-4683-ac4e-4313720c25a5",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-07",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "617e2d82-314b-495e-8090-a2c1ab45229b",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-08",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2fd52e90-f299-4829-a9c7-259658f49970",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-09",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "84242b5b-d573-456e-ae50-1cdf3d98a1e9",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-10",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4f08282d-a8ba-435a-930a-1313ae5c5943",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-11",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "145e54ab-cd5f-4d8d-a94d-7e0b19e102a2",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-12",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "2970cb66-56fe-4286-b939-23260d1589bc",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-13",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "d83ce641-77e2-4a57-906e-ccaf6d79c565",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12200,
+      "recorded_at": "2026-05-14",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "8322ecc0-6913-44a9-a6f6-1069e08a9daf",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-15",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "ebe54687-ac36-43c6-9486-49d15a997c56",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-16",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6fb44dd4-4622-401d-aa1d-43d332df4952",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12300,
+      "recorded_at": "2026-05-17",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "0718535c-5e09-4bfd-9a5d-5e4b3842d6ff",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12500,
+      "recorded_at": "2026-05-18",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "64239cc2-5d51-4be4-b90f-f9d4425d1ae0",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-19",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1a258d73-eb1c-446a-a8b9-a425d0dcea2f",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12400,
+      "recorded_at": "2026-05-20",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "e6865687-d0e7-4011-a3a1-543006e40b8e",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12500,
+      "recorded_at": "2026-05-21",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "f668cc76-35d1-4248-b5cf-d10b0b507b12",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12600,
+      "recorded_at": "2026-05-22",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "1a6e794d-949b-4fdf-9006-05f2b36558ae",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12600,
+      "recorded_at": "2026-05-23",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "4ef280ce-bf31-4202-b2a4-cc2ff5bf96cd",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12700,
+      "recorded_at": "2026-05-24",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "39b559b5-1c28-4999-a9d8-14c6fe92ffe8",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12500,
+      "recorded_at": "2026-05-25",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "3f1690ad-8524-4ced-9471-81379a739521",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12600,
+      "recorded_at": "2026-05-26",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "6d5534d5-f611-4774-822d-a873e4b9456e",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12700,
+      "recorded_at": "2026-05-27",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    },
+    {
+      "id": "7f6d1f48-7942-4a92-843d-28560c982c02",
+      "commodity_id": "12edbf7c-c91d-4341-b9fb-e730cc3d4557",
+      "market_id": "174c520f-ffd6-4653-9fe9-530debd00528",
+      "recorded_price": 12700,
+      "recorded_at": "2026-05-28",
+      "recorded_by": "2aa4505e-cb3c-4a28-8f00-40cdcfd8fb79"
+    }
+  ]
+}
