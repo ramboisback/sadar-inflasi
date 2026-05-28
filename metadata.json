@@ -1,0 +1,6 @@
+{
+  "name": "Sadar Inflasi Bangka Barat",
+  "description": "Sistem Informasi Pengendalian Inflasi Daerah Kabupaten Bangka Barat - Pemantau Harga Pangan Pasar Mentok secara Transparan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
